@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.error{
+    /* overflow-y: auto; */
+    position: fixed;
+    width: 1150px;
+    height: 580px;
+    top: 100px;
+    left: 299px;
+    border-radius: 42px;
+    /* border: 2px solid blueviolet; */
+    background-color: #1A1A1A;
+}
+.error .container{
+    position: relative;
+    color: aliceblue;
+    /* border: 2px solid salmon; */
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+    position: absolute;
+    font-family: poppins;
+    font-size: 5rem;
+    color: salmon;
+}

@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.layout{
+    background: #000000;
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    top: 21.82px;
+    left: 80px;
+    width: 70.35px;
+    height: 72px;
+    border: 4px solid gold;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+}
+.logo img{
+        position: absolute;
+        background: transparent;
+}
+.sidebar{
+    margin: 1rem;
+    /* border: 2px solid green; */
+    position: fixed;
+    top: 120px;
+    left: 26px;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.navitems
+{
+    display: flex;
+   /* position: absolute; */
+   justify-content:center;
+   align-items: center;
+   align-content: center;
+   padding: 0.8rem;
+   margin: 0.5rem;
+}
+.navitems a {
+    color: white;
+    font-weight: 400;
+    font-family: "Rubik";
+    width: 85px;
+    height: 22px;
+    font-size: 18px;
+    opacity: 60%;
+    margin-left: 0.5rem;
+    line-height: 22px;
+    /* letter-spacing: -0.41px; */
+}
+
+  .icon{
+   color: #fff;
+   /* border: 2px solid red; */
+ }
+  .icon1{
+    height: 26px;
+   width: 25px;
+  }
+  .icon2{
+    height: 26px;
+   width: 25px;
+  }
+  .icon3{
+    height: 26px;
+   width: 25px;
+  }
+  .icon4{
+    height: 26px;
+   width: 25px;
+  }
+
+.navitems .active{
+    color: gold;
+    /* border: 1px solid #383838; */
+    /* border-radius: 3px; */
+}
+
+/*topnav*/
+.topnav{
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1062px;
+    height: 65px;
+    top: 20px;
+    left: 338px;
+    /* border: 2px solid tomato; */
+
+}
+.topnav .cryptopod{
+    /* border: 2px solid brown; */
+    width: 203px;
+    height: 54px;
+    top: 41px;
+    left: 338px;
+    margin-left: 0.3rem;
+}
+.topnav .cryptopod h1{
+    color: gold;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.topnav .search input{
+    width: 425px;
+    height: 45px;
+    /* top: 43px;
+    left: 612px; */
+    border: none;
+    outline: gold;
+    border-radius: 18px;
+    margin-left: 3rem;
+    background-color: #1A1A1A;
+    color: white;
+    padding-left: 15px;
+}
+.topnav .search input:focus{
+    border: 1px solid gold;
+}
+
+.topnav .search input::placeholder{
+    color: gray;
+    /* text-indent: 12px; */
+}
+
+.notification-bar{
+    border: 2px solid mediumaquamarine;
+    display: flex;
+    align-items: center;
+    margin-left: 8.4rem;
+}
+
+.notification-bar .message{
+    color: white;
+    width: 55.41px;
+    height: 34.29px;
+    border: 2px;
+
+}
+.notification-bar .notification{
+    color: white;
+    width: 55.41px;
+    height: 34.29px;
+    border: 2px;
+}
+
+
+
+/*profile-user*/
+.profile img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2.6rem;
+    border-radius: 50%;
+}
+
+

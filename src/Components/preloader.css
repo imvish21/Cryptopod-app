@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Tulpen+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Tulpen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Gilroy"; */
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    --bg-color: #1f2424;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+    --heading-color: #14CF93;
+}
+.main{
+      width: 100%;
+}
+#loader{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    z-index: 9999;
+}
+#loader #topheading{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    
+}
+#topheading h1:nth-child(1){
+    text-align: center;
+    text-shadow: var(--main-color) 4px 0 10px;
+    text-transform: uppercase;
+    font-family: 'Black Ops One', cursive;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    /* color: var(--main-color); */
+    color: var(--bg-color);
+    /* border: 2px solid var(--main-color); */
+    /* box-shadow: 5px 5px 10px var(--main-color); */
+    border-radius: 15px;
+}
+#loader>h1
+{
+
+    display: flex;
+    width: 100%;
+    /* overflow: hidden; */
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 800;
+    word-spacing: 18px;
+    /* background-color: red; */
+    /* text-transform: uppercase; */
+}
+
+
+.reveal .parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.reveal .parent .child{
+    display: block;
+    overflow: hidden;
+    /* background-color: #0ef; */
+    /* transform: translateY(); */
+}
+
+#loader>h1 span{
+    /* border: 2px solid red; */
+    display: flex;
+    font-family: 'Tulpen One', cursive;
+    font-style: italic;
+    letter-spacing: 13px;
+    padding: 0 3rem;
+    font-weight: 900;
+}
+#loader>box-icon{
+    position: absolute;
+    top:75%;
+    left: 46%;
+   margin: 1rem;
+   /* background-color: #14CF93; */
+   background: #F7941D;
+   border-radius: 50%;
+}
+
+
+#green{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 0vh;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+z-index:9999;
+
+
+    
+
+}
