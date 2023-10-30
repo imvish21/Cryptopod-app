@@ -7,7 +7,7 @@ import MainDashboardApp from './Components/MainDashboard/MainDashboardApp';
 function App() {
   return (
    <>
-   <Preloader />
+   {/* <Preloader /> */}
    {/* <LoginSignup /> */}
    <MainDashboardApp />
    

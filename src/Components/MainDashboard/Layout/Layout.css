@@ -143,7 +143,7 @@ html,body{
 }
 
 .notification-bar{
-    border: 2px solid mediumaquamarine;
+    /* border: 2px solid mediumaquamarine; */
     display: flex;
     align-items: center;
     margin-left: 8.4rem;

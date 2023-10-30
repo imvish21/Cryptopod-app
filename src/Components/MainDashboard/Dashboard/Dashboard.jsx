@@ -2,13 +2,16 @@ import React from 'react'
 import './dashboard.css'
 import "@fontsource/rubik";
 import "@fontsource/poppins";
+import DashHome from './DashHome/DashHome';
+import Coinpage from './DashHome/Coinpage';
+
 
 const Dashboard = () => {
+
   return (
-    <div className='dashboard'>
-      <div className="container">
-        <h1>Dashboard Page</h1>
-      </div>
+    <div>
+      <DashHome />
+      <Coinpage />
     </div>
   )
 }

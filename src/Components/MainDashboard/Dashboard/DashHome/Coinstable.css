@@ -1,0 +1,64 @@
+.coinsearch{
+    margin-bottom: 1.25rem;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    outline-color: aliceblue;
+    /* border: 2px solid rebeccapurple; */
+}
+.coinsearch>div{
+    /* border: 1px solid sandybrown; */
+    background-color: #000;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.coinsearch>label{
+    color: #fff;
+    font-family: "Rubik";
+    font-size: 1rem;
+    font-weight: 400;
+    align-self: center;
+}
+
+.tcontainer{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    /* overflow: auto; */
+}
+
+.ctable{
+    background-color: #F0D85A;
+      
+}
+.thead{
+    background-color: #dfc649;
+}
+.rows{
+    width: 100%;
+}
+.rows:hover{
+    background-color: #dfc649;
+    cursor: pointer;
+}
+.pages{
+    border-radius: 20px;
+    background-color: #dfc649;
+   
+    width: 100%;
+    align-self: center;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages ul li button{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+}

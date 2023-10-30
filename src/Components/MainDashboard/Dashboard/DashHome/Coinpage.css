@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.coinpage{
+    overflow: auto;
+    scroll-behavior: smooth;
+    position: fixed;
+    width: 1150px;
+    height: 580px;
+    top: 100px;
+    left: 299px;
+    border-radius: 42px;
+    /* border: 2px solid blueviolet; */
+    background-color: #1A1A1A;
+}
+.coinpage::-webkit-scrollbar {
+    display: none;
+  }
