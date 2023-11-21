@@ -18,7 +18,7 @@ import {
   TableCell,
   TableBody,
 } from "@mui/material";
-import { Pagination } from "@mui/lab";
+import { Pagination } from "@mui/material";
 import { numberWithCommas } from "./DashHome";
 import DashHome from "./DashHome";
 
@@ -40,7 +40,7 @@ const Coinstable = () => {
   useEffect(() => {
     fetchCoins();
   }, [currency]);
-  console.log(coins);
+  // console.log(coins);
 
   /*search coins*/
   const onCoinSearch = (e) => {

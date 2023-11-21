@@ -1,0 +1,31 @@
+.coininfo{
+    /* border: 1px solid brown; */
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chartcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 2.5rem;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid green; */
+    /* background-color: aliceblue; */
+}
+.chart{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border: 0.5px solid cornsilk;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+
+

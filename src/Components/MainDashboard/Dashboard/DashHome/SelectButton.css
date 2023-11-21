@@ -1,0 +1,21 @@
+.selectbutton{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0.2rem;
+    align-items: center;
+    text-align: center;
+    margin: 0.2rem;
+    height: 2.2rem;
+    width: 5rem;
+    cursor: pointer;
+    /* font-family: "Poppins" */
+    font-weight: 500;
+}
+.selectbutton:hover{
+    background-color: #DDC85B;
+    color: #000;
+    border: 1px solid #000;
+}
+.selectbutton:active{
+    background-color: #DDC85B;
+}
