@@ -55,4 +55,4 @@ const getWallet=asyncHandler(async(req,res)=>{
       }
     });
 })
-  module.exports = {getDashboard,getTrade,getWallet,getSettings};
+module.exports = {getDashboard,getTrade,getWallet,getSettings};
