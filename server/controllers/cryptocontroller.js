@@ -55,4 +55,41 @@ const getWallet=asyncHandler(async(req,res)=>{
       }
     });
 })
-module.exports = {getDashboard,getTrade,getWallet,getSettings};
+const getCoinPage=asyncHandler(async(req,res)=>{
+  const filePath=path.join(__dirname,"..","..","src","Components","MainDashboard","Dashboard","DashHome","Coinpage.jsx");
+  res.sendFile(filePath, (err) => {
+      if (err) {
+        // Handle errors if the file cannot be sent
+        console.error('Error sending file:', err);
+        res.status(err.status).end();
+      } else {
+        console.log('File sent successfully');
+      }
+    });
+})
+const getErrorPage = asyncHandler(async(req,res)=>{
+  const filePath=path.join(__dirname,"..","..","src","Components","MainDashboard","Error","Error.jsx");
+  // Send the file as a response
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      // Handle errors if the file cannot be sent
+      console.error('Error sending file:', err);
+      res.status(err.status).end();
+    } else {
+      console.log('File sent successfully');
+    }
+  });
+})
+// const getAllRoutes = asyncHandler(async(req,res)=>{
+//   const filePath = path.join(__dirname,"..","..","build","index.html");
+//   res.sendFile(filePath, (err) => {
+//     if (err) {
+//       // Handle errors if the file cannot be sent
+//       console.error('Error sending file:', err);
+//       res.status(err.status).end();
+//     } else {
+//       console.log('File sent successfully');
+//     }
+//   });
+// })
+module.exports = {getDashboard,getTrade,getWallet,getSettings,getCoinPage,getErrorPage};
