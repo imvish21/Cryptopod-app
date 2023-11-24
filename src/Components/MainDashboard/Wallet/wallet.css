@@ -8,7 +8,7 @@ html,body{
     width: 100%;
 }
 .wallet{
-    /* overflow-y: auto; */
+    overflow-y: auto;
     position: fixed;
     width: 1150px;
     height: 580px;
@@ -17,21 +17,201 @@ html,body{
     border-radius: 42px;
     /* border: 2px solid blueviolet; */
     background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
 }
-.wallet .container{
-    position: relative;
-    color: aliceblue;
-    /* border: 2px solid salmon; */
-    height: 50%;
-    width: 50%;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.mybalance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid gold; */
+    border-radius: 15px;
+    height: 10%;
+    width: 100%;
+    padding: 0.6rem;
+    /* margin-left: 4rem; */
 }
-.container h1{
-    position: absolute;
-    font-family: poppins;
-    font-size: 5rem;
-    color: salmon;
+.mybalance .balhead{
+    color: whitesmoke;
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 4rem;
+    letter-spacing: 2px;
+}
+
+.balance{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px #000;
+    background-color: #141519;
+    width: 88%;
+    margin-top: 0.2rem;
+    margin-left: 4.2rem;
+    height: 31%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+}
+.amountbal{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 47%;
+}
+
+.amttop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid blue; */
+    height: 75%;
+}
+.amticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid salmon; */
+    background-color: #7DA9E5;
+    border-radius: 30%;
+    height: 38%;
+    width: 10%;
+}
+.amticon i{
+    font-size: 2rem;
+    color: #000;
+    /* border: 1px solid green; */
+}
+.amt{
+    /* border: 1px solid green;     */
+    /* background-color: #000; */
+    /* border-radius: 10px; */
+    /* box-shadow: 2px 2px 5px #000; */
+    padding: 0.5rem;
+    width: 60%;
+    height: 80%;
+    /* margin-right: 1rem; */
+}
+.amthead{
+    font-size: 1.2rem;
+    color: #B0B3B7;
+    font-family: "Rubik";
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.avlbal{
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px white;
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.avlbal span{
+    font-size: 1.1rem;
+    text-shadow: none;
+    font-style: italic;
+    color: #B0B3B7;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+
+.trending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid salmon; */
+    background-color: #65DA97;
+    border-radius: 50%;
+    height: 26%;
+    width: 8%;
+    margin-bottom: 3rem;
+    /* margin-right: 1rem; */
+}
+.trending i{
+    font-size: 1rem;
+    color: #000;
+}
+.amtbottom{
+    /* border: 1px solid red; */
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.amtbottom .view{
+    font-size: 1rem;
+    font-family: "Rubik";
+    font-weight: 500;
+    color: #65DA97;
+    border-bottom: 1px solid #65DA97;
+    margin-left: 6.7rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+.ethbal{
+    height: 95%;
+    width: 53%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 5px #1A1A1A; */
+    background-color: #1C1D22;
+    margin-right: 0.2rem;
+    
+}
+.ethicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid salmon; */
+    background-color: #E26C8C;
+    border-radius: 50%;
+    height: 38%;
+    width: 10%;
+}
+.ethicon i{
+    font-size: 2rem;
+    color: #000;
+    /* border: 1px solid green; */
+}
+.ether{
+    font-size: 2rem;
+    /* text-shadow: 1px 1px 3px white; */
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.ether span{
+    font-size: 1.1rem;
+    text-shadow: none;
+    font-style: italic;
+    color: #B0B3B7;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid salmon; */
+    background-color: #E26C8C;
+    border-radius: 50%;
+    height: 30%;
+    width: 8%;
+    margin-bottom: 3rem;
+    /* margin-right: 1rem; */
+}
+.trending i{
+    font-size: 1rem;
+    color: #000;
 }
