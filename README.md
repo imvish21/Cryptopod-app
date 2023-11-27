@@ -6,18 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+## `npm install`
+
+To install the dependencies.
+
+## `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +26,96 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## `Project Description`
 
-### `npm run eject`
+Cryptopod is a cryptocurrency dashboard web application built on BERN(Blockchain, Express Js, React Js, Node Js) to demonstrates a good integration of blockchain technology and modern web development practices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+DashHome Page:
+Overview:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The DashHome page serves as the landing page, providing users with a comprehensive snapshot of the cryptocurrency market.
+Key Features:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Trending Cryptocurrencies:
+Displays a list of trending cryptocurrencies, possibly based on market performance or user preferences.
+Real-time Data:
+Utilizes web sockets or periodic API calls to ensure real-time updates on cryptocurrency prices.
+User Experience:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Intuitive Design:
+User-friendly interface with a clean design to enhance the overall user experience.
 
-## Learn More
+Responsive Layout:
+Ensures compatibility across various devices for seamless accessibility.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Homepage (INR)jpg](https://github.com/imvish21/Cryptopod-app/assets/92950796/34bfcfb0-0030-4873-be4d-869df44e08d4)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Coinpage (Charts for Analyzing Trends):
+Chart Visualization:
 
-### Code Splitting
+ChartJS Integration:
+Implements ChartJS for dynamic and interactive charts, allowing users to analyze trends over different time periods.
+Candlestick Charts:
+Provides candlestick charts for a detailed view of price movements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Historical Data:
 
-### Analyzing the Bundle Size
+Time Series Analysis:
+Enables users to view historical price data for specific cryptocurrencies.
+Customizable Timeframes:
+Allows users to customize timeframes for in-depth analysis.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![coin page](https://github.com/imvish21/Cryptopod-app/assets/92950796/f826eeef-7de9-4ecd-8914-98d6eb94d4f4)
 
-### Making a Progressive Web App
+Trade Page:
+Transaction Functionality:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ganache Blockchain Integration:
+Connects to the Ganache blockchain network for secure and efficient transactions.
 
-### Advanced Configuration
+Smart Contract Interaction:
+Utilizes Truffle and Web3.js to interact with a Solidity smart contract for executing transactions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+User Interaction:
+Buy/Sell Cryptocurrencies:
+Enables users to perform buy and sell transactions directly from the trade page.
+Transaction History:
+Maintains a record of user transactions for reference.
 
-### Deployment
+![TRADE](https://github.com/imvish21/Cryptopod-app/assets/92950796/f5c6335a-00d1-4b11-ac82-acb8acf92a7c)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Wallet Page:
+Balance Overview:
 
-### `npm run build` fails to minify
+Dual Currency Display:
+Displays the current wallet balance in both INR and ethers for user convenience.
+Real-time Updates:
+Provides real-time updates on wallet balances.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Transaction History:
+Recent Transactions:
+Lists the most recent transactions, including details such as date, type (buy/sell), and amount.
+Filtering Options:
+Allows users to filter transactions based on different criteria.
+
+User Interface:
+Intuitive Wallet Interface:
+Design focuses on clarity and simplicity, making it easy for users to understand their wallet status and transaction history.
+
+![walletpage](https://github.com/imvish21/Cryptopod-app/assets/92950796/310c078f-d09e-4280-9358-2949695581ae)
+
+General Project Characteristics:
+Technology Stack:
+Utilizes BERN stack (Blockchain, Express.js, React.js, Node.js) for full-stack development.
+Integrates Truffle and Web3.js for blockchain interaction.
+Security Measures:
+
+Implements secure coding practices to safeguard user transactions and sensitive data.
+Utilizes blockchain's decentralized nature for enhanced security.
+Scalability:
+
+Designed with scalability in mind to accommodate future updates and additional features.
+Documentation:
+
+Includes comprehensive documentation for developers and end-users, explaining the functionalities and how to use the platform.
+ 
