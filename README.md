@@ -31,7 +31,6 @@ Your app is ready to be deployed!
 Cryptopod is a cryptocurrency dashboard web application built on BERN(Blockchain, Express Js, React Js, Node Js) to demonstrates a good integration of blockchain technology and modern web development practices.
 
 `DashHome Page:`
-Overview:
 
 The DashHome page serves as the landing page, providing users with a comprehensive snapshot of the cryptocurrency market.
 Key Features:
@@ -56,7 +55,7 @@ Ensures compatibility across various devices for seamless accessibility.
 
 ![Homepage (INR)jpg](https://github.com/imvish21/Cryptopod-app/assets/92950796/34bfcfb0-0030-4873-be4d-869df44e08d4)
 
-Coinpage (Charts for Analyzing Trends):
+`Coinpage (Charts for Analyzing Trends):`
 
 Chart Visualization:
 
@@ -80,7 +79,7 @@ Allows users to customize timeframes for in-depth analysis.
 
 ![coin page](https://github.com/imvish21/Cryptopod-app/assets/92950796/f826eeef-7de9-4ecd-8914-98d6eb94d4f4)
 
-Trade Page:
+`Trade Page:`
 
 Transaction Functionality:
 
@@ -104,7 +103,7 @@ Maintains a record of user transactions for reference.
 
 ![TRADE](https://github.com/imvish21/Cryptopod-app/assets/92950796/f5c6335a-00d1-4b11-ac82-acb8acf92a7c)
 
-Wallet Page:
+`Wallet Page:`
 
 Balance Overview:
 
