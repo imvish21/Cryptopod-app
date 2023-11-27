@@ -26,11 +26,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-## `Project Description`
+## Project Description
 
 Cryptopod is a cryptocurrency dashboard web application built on BERN(Blockchain, Express Js, React Js, Node Js) to demonstrates a good integration of blockchain technology and modern web development practices.
 
-DashHome Page:
+`DashHome Page:`
 Overview:
 
 The DashHome page serves as the landing page, providing users with a comprehensive snapshot of the cryptocurrency market.
