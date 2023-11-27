@@ -11,7 +11,7 @@ import { CryptoState } from "../../../CryptoContext";
  // Import the deployContract function
 
 const Trade = () => {
-  const { currency, setCurrency, balance, setBalance, availBalance, setAvailBalance, contractAddress, setContractAddress,transaction, setTransaction } = CryptoState();
+  const { currency, setCurrency, balance, setBalance, availBalance, setAvailBalance, contractAddress, setContractAddress,transaction, setTransaction, transactionHistory, addTransactionToHistory } = CryptoState();
   const [modal, setModal] = useState(false);
   const [recipientAddress, setRecipientAddress] = useState('');
   const [amount, setAmount] = useState(0);
@@ -143,14 +143,14 @@ const Trade = () => {
       console.log(`Account[0] Ether Balance: ${formattedBalance} ETH`);
       console.log(`Account[0] Balance: ${formattedAvailBalance} INR`);
       const transactions = await web3.eth.getTransactionCount(contractAddress);
-    const transactionHistory = [];
+      const transactionHistory = [];
 
-    for (let i = 0; i < transactions; i++) {
-      const transaction = await web3.eth.getTransactionFromBlock('latest', i);
-      transactionHistory.push(transaction);
-    }
+      for (let i = 0; i < transactions; i++) {
+        const transaction = await web3.eth.getTransactionFromBlock('latest', i);
+        transactionHistory.push(transaction);
+      }
 
-    console.log('Transaction History:', transactionHistory);
+      console.log('Transaction History:', transactionHistory);
     } catch (error) {
       console.error(error);
       console.log('Error checking balance. Please try again.');
@@ -248,6 +248,11 @@ const Trade = () => {
         from: web3.eth.defaultAccount,
         value: web3.utils.toWei(amount, 'ether'), // Convert amount to wei
       });
+      addTransactionToHistory(
+        web3.eth.defaultAccount,
+        recipientAddress,
+        web3.utils.toWei(amount, 'ether')
+      );
       setModal(true);
       checkBalance();
       console.log('Ether transferred successfully!');

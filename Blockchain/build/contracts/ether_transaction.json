@@ -4352,12 +4352,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xbEf4290082730C0A1bD45fdC7b16AA761743EFb0",
-      "transactionHash": "0x8a8a1a6974520018a5ac350d15a057bdb6fb4ff5ad8cc74ce83093fd628c4610"
+      "address": "0x328345402AB5f907FCF488D88fb27a505Cd7B72d",
+      "transactionHash": "0xd1c85fcfa087b21ba1ffa957c95f52688fe93550ff141e09988407e684702a27"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-11-27T06:25:34.333Z",
+  "updatedAt": "2023-11-27T16:55:48.584Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

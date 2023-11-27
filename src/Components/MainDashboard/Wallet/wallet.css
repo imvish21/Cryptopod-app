@@ -21,6 +21,9 @@ html,body{
     flex-direction: column;
     /* justify-content: center; */
 }
+.wallet::-webkit-scrollbar {
+    display: none;
+  }
 .mybalance{
     display: flex;
     justify-content: space-between;
@@ -214,4 +217,119 @@ html,body{
 .trending i{
     font-size: 1rem;
     color: #000;
+}
+
+.transaction-history{
+    /* border: 1px solid red; */
+    width: 88%;
+    margin-top: 1.5rem;
+    margin-left: 4.2rem;
+    height: 20rem;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+/* .transaction-type,.transaction-type,.transaction-amount,.transaction-details,.transaction-date,.transaction-address{
+    color: white;
+    font-size: 1.2rem;
+} */
+
+.transhishead{
+    color: whitesmoke;
+    /* color: #FFE9AB; */
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 35%;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+.transactullist{
+    /* border: 1px solid green; */
+    height: 100%;
+}
+.transactlist{
+    /* border: 1px solid coral; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #141519;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 35%;
+}
+.transactaddr{
+    height: 50%;
+    /* border: 1px solid bisque; */
+    display: flex;
+    justify-content: space-between;
+}
+.senderaddr{
+    display: flex;
+    flex-direction: column;
+}
+.sender,.recieve{
+    font-size: 1.1rem;
+    text-shadow: none;
+    font-style: italic;
+    color: #B0B3B7;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.raddr{
+    font-size: 1rem;
+    /* text-shadow: 2px 2px 5px white; */
+    color: #fff;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+.saddr{
+    font-size: 1rem;
+    /* text-shadow: 2px 2px 5px white; */
+    color: #fff;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+.transactvalue{
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid brown; */
+}
+.value{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    color: #65DA97;
+    /* text-transform: uppercase; */
+    /* margin-top: 0.8rem; */
+}
+.value span{
+    /* color: #B0B3B7; */
+    font-size: 1rem;
+    /* color: #65DA97; */
+    font-style: italic;
+}
+.transactdate{
+    height: 25%;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transaction-date{
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    color: wheat;
 }
